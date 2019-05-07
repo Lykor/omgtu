@@ -1,0 +1,3 @@
+﻿  Source.cpp
+d:\omgtu_labs\programm 6 var 9-005\programms\oop4\source.cpp(85): warning C4091: typedef : пропускается слева от "Matrix", когда ни одна переменная не объявлена
+  oop4.vcxproj -> D:\OmGTU_labs\Programm 6 var 9-005\Programms\Debug\oop4.exe
