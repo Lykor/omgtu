@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>movie</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+<servlet>
+  <servlet-name>about</servlet-name>
+  <servlet-class>movie.about</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>contact</servlet-name>
+  <servlet-class>movie.contact</servlet-class>
+ </servlet>
+ 
+ <servlet>
+  <servlet-name>home</servlet-name>
+  <servlet-class>movie.home</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>merch</servlet-name>
+  <servlet-class>movie.merch</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>sponsors</servlet-name>
+  <servlet-class>movie.sponsors</servlet-class>
+  </servlet>
+
+
+<servlet-mapping>
+
+<servlet-name>about</servlet-name>
+<url-pattern>/about</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>contact</servlet-name>
+	<url-pattern>/contact</url-pattern>
+</servlet-mapping>
+	
+	
+<servlet-mapping>	
+	<servlet-name>home</servlet-name>
+	<url-pattern>/home</url-pattern>
+</servlet-mapping>	
+	
+<servlet-mapping>	
+	<servlet-name>sponsors</servlet-name>
+	<url-pattern>/sponsors</url-pattern>
+</servlet-mapping>
+	
+	
+<servlet-mapping>
+	<servlet-name>merch</servlet-name>
+	<url-pattern>/merch</url-pattern>
+</servlet-mapping>
+  
+  
+  
+  
+  
+</web-app>
