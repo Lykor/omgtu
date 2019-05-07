@@ -1,0 +1,3 @@
+﻿  Source.cpp
+d:\omgtu_labs\programm 6 var 9-005\programms\oop2\source.cpp(43): warning C4091: typedef : пропускается слева от "cyl", когда ни одна переменная не объявлена
+  oop2.vcxproj -> D:\OmGTU_labs\Programm 6 var 9-005\Programms\Debug\oop2.exe
