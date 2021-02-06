@@ -1,0 +1,224 @@
+header{    
+    width: 100%;
+    height: 308.52px;
+    background-image: url(img/footer_wave.svg);
+    background-repeat: repeat-x; 
+    font-family: Gilroy;
+    display: flex; 
+    justify-content: center;  
+}
+header.header .wrapper a{
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    display: inline;
+    padding: 25px;
+    outline: none;
+}
+
+#btn{
+    width: 143px;
+    height: 8px;
+    background: #00A8EA;
+    border-radius: 30px;
+    border: none;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    color:white;  
+    text-align: center;
+    text-transform: uppercase; 
+}
+a:hover{
+    color: #00A8EA;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header.header .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1170px;
+    height: 82px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(1, 115, 159, 0.1);
+    border-radius: 10px;
+    width: 95%;
+    margin-left: 3%;
+    margin-top: 18px;
+}
+header.header .wrapper nav.center_nav ul{
+    display: inline-flex;
+    color: black;
+}
+.divider{
+    width: 2px;
+    height: 13px;
+    background-image: url(img/border.svg);
+    display:flex;
+    align-self: center;
+ }
+button{
+    width: 193px;
+    height: 42px;
+    background: #00A8EA;
+    border-radius: 30px;
+    border: none;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color:white;    
+}
+.info_title{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+}
+
+.header .info_title{
+    position: absolute;
+    top:200px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 13px;
+}
+.menu_new{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-top: 55px;
+    padding-right: 900px;
+}
+
+.menu_new a{
+    color: black;
+    text-decoration: none;
+    display: inline;
+    padding: 11px;
+    outline: none;
+}
+
+.menu_new a:hover{
+    color: #00A8EA;
+}
+.items{
+    padding-top:55px;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-column-gap: 30px;
+    grid-row-gap: 41px;
+}
+.item_news{
+    width: 370px;
+    height: 460px;
+    background: #FFFFFF;
+    background-image: url(img/item_background.svg);
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(1, 115, 159, 0.1);    
+}
+.item_news a{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    color: #00A8EA;
+    text-decoration: none;
+    outline: none;
+}
+.item_news p{
+    width: 312px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    padding-left:24px;
+    padding-top:22px;
+}
+.item_news h1{
+    width:328px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding-left: 24px;
+    padding-top:22px;
+}
+#news_photo{
+    padding-left:24px;
+    padding-top:29px;
+}
+.item_news .about{
+    padding-left:24px;
+    padding-top:29px;
+}
+footer.footer{
+    height: 121px;
+    background: #ECFAFF;
+}
+
+footer.footer .wrapper{
+    padding-top:26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+footer.footer .wrapper nav.center_nav ul{
+    display: inline-flex;
+    color: black;
+}
+footer.footer .wrapper a{
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    display: inline;
+    padding: 25px;
+    outline: none;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+footer.footer .wrapper a:hover{
+    color:#00A8EA;
+}
+footer.foooter .wrapper p{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.hidden{
+    display: none;
+}
+form{
+    padding: 20px;
+    background-color: #fff;
+    max-width: 320px;
+    margin:auto;
+}
+.loader{
+    display:none;
+}

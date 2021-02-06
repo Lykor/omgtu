@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Лабораторная номер два</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="jquery.fulltable.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<bode>
+  <table class="fulltable fulltable-editable" id="test-table">
+    <thead>
+    <tr>
+      <th fulltable-field-name="fio">ФИО</th>
+      <th fulltable-field-name="age">Возраст</th>
+      <th fulltable-field-name="gender">Пол</th>
+      <th fulltable-field-name="height">Рост</th>
+      <th fulltable-field-name="telephone">Телефон</th>
+      <th fulltable-field-name="main">Написать</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Егоров Максим Викторович</td>
+      <td>20</td>
+      <td>Мужской</td>
+      <td>180</td>
+      <td><a href="tel:+1234567890">Позвонить</a></td>
+      <td><a href="mailto:mail@mail.ru">Связаться</a></td>
+    </tr>
+    </tbody>
+  </table>
+  <div class="container">
+    <div class="row">
+      <!-- Calculator Card -->
+      <div class="col-ms-4">
+        <div class="card">
+          <h3 class="card-header">Calculator</h3>
+          <div class="card-body">
+            <button id="button-1" class="btn btn-primary number" value="1">
+              <h1>1</h1>
+            </button>
+            <button id="button-2" class="btn btn-primary number" value="2">
+              <h1>2</h1>
+            </button>
+            <button id="button-3" class="btn btn-primary number" value="3">
+              <h1>3</h1>
+            </button>
+            <button id="button-plus" class="btn btn-danger operator" value="+">
+              <h1>+</h1>
+            </button>
+            <br><br>
+            <button id="button-4" class="btn btn-primary number" value="4">
+              <h1>4</h1>
+            </button>
+            <button id="button-5" class="btn btn-primary number" value="5">
+              <h1>5</h1>
+            </button>
+            <button id="button-6" class="btn btn-primary number" value="6">
+              <h1>6</h1>
+            </button>
+            <button id="button-minus" class="btn btn-danger operator" value="-">
+              <h1>&minus;</h1>
+            </button>
+            <br><br>
+            <button id="button-7" class="btn btn-primary number" value="7">
+              <h1>7</h1>
+            </button>
+            <button id="button-8" class="btn btn-primary number" value="8">
+              <h1>8</h1>
+            </button>
+            <button id="button-9" class="btn btn-primary number" value="9">
+              <h1>9</h1>
+            </button>
+            <button id="button-multiply" class="btn btn-danger operator" value="X">
+              <h1>&times;</h1>
+            </button>
+            <br><br>
+            <button id="button-0" class="btn btn-primary number" value="0">
+              <h1>0</h1>
+            </button>
+            <button id="button-divide" class="btn btn-danger operator" value="/">
+              <h1>&divide;</h1>
+            </button>
+            <button id="button-power" class="btn btn-danger operator" value="^">
+              <h1>^</h1>
+            </button>
+            <button id="button-equal" class="btn btn-success equal" value="=">
+              <h1>=</h1>
+            </button>
+            <br><br>
+            <button id="button-clear" class="btn btn-dark clear" value="clear">
+              <h1>clear</h1>
+            </button>
+            <button id="button-tip" class="btn btn-dark tip" value="tip">
+              <h1>tip 10%</h1>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Result Card -->
+      <div class="col-lg-6">
+        <div class="card">
+          <h3 class="card-header">Result</h3>
+          <div class="card-body">
+            <h1 id="first-number"></h1>
+            <h1 id="operator"></h1>
+            <h1 id="second-number"></h1>
+            <hr>
+            <h1 id="result"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="jquery.fulltable.js"></script>
+    <script src="form.js"></script>
+    <script src="calculator.js"></script>
+</body>
+</html>
